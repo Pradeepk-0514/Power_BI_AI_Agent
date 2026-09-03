@@ -1,0 +1,126 @@
+{
+    "report": {
+        "title": "Sales Performance Dashboard",
+        "pages": [
+            {
+                "page_number": 1,
+                "page_name": "Overview",
+                "visual_count": 6,
+                "visuals": [
+                    {
+                        "visual_id": "kpi_1",
+                        "visual_type": "kpi_card",
+                        "title": "Total Cost",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 3,
+                            "height": 2
+                        },
+                        "configuration": {
+                            "name": "Total Cost",
+                            "metric": "Cost",
+                            "aggregation": "sum",
+                            "description": "Total value of Cost across all records.",
+                            "business_meaning": "Measures the overall Cost performance."
+                        }
+                    },
+                    {
+                        "visual_id": "kpi_2",
+                        "visual_type": "kpi_card",
+                        "title": "Total Discount",
+                        "position": {
+                            "x": 3,
+                            "y": 0,
+                            "width": 3,
+                            "height": 2
+                        },
+                        "configuration": {
+                            "name": "Total Discount",
+                            "metric": "Discount",
+                            "aggregation": "sum",
+                            "description": "Total value of Discount across all records.",
+                            "business_meaning": "Measures the overall Discount performance."
+                        }
+                    },
+                    {
+                        "visual_id": "kpi_3",
+                        "visual_type": "kpi_card",
+                        "title": "Total Profit",
+                        "position": {
+                            "x": 6,
+                            "y": 0,
+                            "width": 3,
+                            "height": 2
+                        },
+                        "configuration": {
+                            "name": "Total Profit",
+                            "metric": "Profit",
+                            "aggregation": "sum",
+                            "description": "Total value of Profit across all records.",
+                            "business_meaning": "Measures the overall Profit performance."
+                        }
+                    },
+                    {
+                        "visual_id": "kpi_4",
+                        "visual_type": "kpi_card",
+                        "title": "Total Quantity",
+                        "position": {
+                            "x": 9,
+                            "y": 0,
+                            "width": 3,
+                            "height": 2
+                        },
+                        "configuration": {
+                            "name": "Total Quantity",
+                            "metric": "Quantity",
+                            "aggregation": "sum",
+                            "description": "Total value of Quantity across all records.",
+                            "business_meaning": "Measures the overall Quantity performance."
+                        }
+                    },
+                    {
+                        "visual_id": "chart_1",
+                        "visual_type": "line_chart",
+                        "title": "Month Sales Trend",
+                        "position": {
+                            "x": 0,
+                            "y": 3,
+                            "width": 6,
+                            "height": 5
+                        },
+                        "configuration": {
+                            "title": "Month Sales Trend",
+                            "chart_type": "line_chart",
+                            "x_axis": "Order_Date",
+                            "y_axis": "Sales",
+                            "aggregation": "sum",
+                            "time_granularity": "month",
+                            "reason": "A line chart is suitable for showing changes and growth over time."
+                        }
+                    },
+                    {
+                        "visual_id": "chart_2",
+                        "visual_type": "bar_chart",
+                        "title": "Sales by Region",
+                        "position": {
+                            "x": 6,
+                            "y": 3,
+                            "width": 6,
+                            "height": 5
+                        },
+                        "configuration": {
+                            "title": "Sales by Region",
+                            "chart_type": "bar_chart",
+                            "x_axis": "Region",
+                            "y_axis": "Sales",
+                            "aggregation": "sum",
+                            "time_granularity": null,
+                            "reason": "A bar chart is suitable for comparing values across categories."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
