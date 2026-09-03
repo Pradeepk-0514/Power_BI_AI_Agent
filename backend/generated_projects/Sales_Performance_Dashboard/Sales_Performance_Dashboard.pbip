@@ -1,0 +1,7 @@
+{
+    "version": "1.0",
+    "project": {
+        "name": "Sales_Performance_Dashboard",
+        "type": "PowerBI"
+    }
+}
