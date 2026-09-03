@@ -1,0 +1,71 @@
+{
+    "semantic_model": {
+        "tables": [
+            {
+                "name": "Dataset",
+                "columns": [
+                    {
+                        "name": "Cost",
+                        "data_type": "numeric"
+                    },
+                    {
+                        "name": "Discount",
+                        "data_type": "numeric"
+                    },
+                    {
+                        "name": "Profit",
+                        "data_type": "numeric"
+                    },
+                    {
+                        "name": "Quantity",
+                        "data_type": "numeric"
+                    },
+                    {
+                        "name": "Sales",
+                        "data_type": "numeric"
+                    },
+                    {
+                        "name": "Category",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "City",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Customer_Segment",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Order_Status",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Payment_Mode",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Product_Name",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Region",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "State",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Sub_Category",
+                        "data_type": "text"
+                    },
+                    {
+                        "name": "Order_Date",
+                        "data_type": "date"
+                    }
+                ]
+            }
+        ]
+    }
+}
